@@ -1,3 +1,9 @@
+/*
+*	This solution is the scaled version, if N is > 10^8 O(N) Solution is not scalable
+*	So we make use of sum of all natural numbers formula to compute the solution
+*	But make sure to use long, to avoid overflow issues
+*/
+
 public class Main2 {
     public static long sumDivisibleBy(long N, long n) {
         long sum = 0;
